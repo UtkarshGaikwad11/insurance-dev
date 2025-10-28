@@ -88,7 +88,7 @@ export default function PoliciesPage() {
   return (
     <div className="space-y-6">
       {/* Header Section */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-xl p-6 text-white shadow-lg">
+      <div className="bg-linear-to-r from-blue-600 to-blue-800 rounded-xl p-6 text-white shadow-lg">
         <div className="flex items-center gap-3 mb-2">
           <Shield className="h-8 w-8" />
           <h1 className="text-3xl font-bold">Policies Management</h1>

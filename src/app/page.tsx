@@ -14,7 +14,7 @@ export default function Dashboard() {
   return (
     <div className="space-y-6">
       {/* Header Section */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-xl p-6 text-white shadow-lg">
+      <div className="bg-linear-to-r from-blue-600 to-blue-800 rounded-xl p-6 text-white shadow-lg">
         <h1 className="text-3xl font-bold mb-2">Welcome back, {user.name}</h1>
         <p className="text-blue-100">Here's what's happening with your insurance portfolio today</p>
       </div>

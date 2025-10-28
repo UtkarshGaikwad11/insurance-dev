@@ -16,7 +16,7 @@ export default function CustomersPage() {
   return (
     <div className="space-y-6">
       {/* Header Section */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-xl p-6 text-white shadow-lg flex items-center justify-between">
+      <div className="bg-linear-to-r from-blue-600 to-blue-800 rounded-xl p-6 text-white shadow-lg flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-bold mb-2">Customers</h1>
           <p className="text-blue-100">Manage and view all registered customers</p>
