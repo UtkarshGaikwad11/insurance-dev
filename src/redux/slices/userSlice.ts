@@ -3,11 +3,15 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 interface UserState {
   name: string;
   role: string;
+  email?: string;
+  uid?: string;
 }
 
 const initialState: UserState = {
-  name: "Admin",
-  role: "Insurance Manager",
+  name: "",
+  role: "",
+  email: "",
+  uid: "",
 };
 
 const userSlice = createSlice({
@@ -17,8 +21,9 @@ const userSlice = createSlice({
     updateUser: (state, action: PayloadAction<Partial<UserState>>) => {
       return { ...state, ...action.payload };
     },
+    clearUser: () => initialState,
   },
 });
 
-export const { updateUser } = userSlice.actions;
+export const { updateUser, clearUser } = userSlice.actions;
 export default userSlice.reducer;
