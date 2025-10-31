@@ -20,8 +20,6 @@ export default function Dashboard() {
 
   const handleLogout = async () => {
     try {
-      await signOut(auth);
-      dispatch(clearUser());
       router.push("/login");
     } catch (error) {
       console.error("Logout failed:", error);
