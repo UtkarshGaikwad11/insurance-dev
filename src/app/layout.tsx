@@ -4,7 +4,7 @@ import { ReduxProvider } from "./redux-provider";
 import SidebarShell from "@/components/SidebarShell";
 import { Toaster } from "sonner";
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }: { children: ReactNode }) {  
   return (
     <html lang="en">
       <body>
